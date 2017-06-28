@@ -30,4 +30,5 @@ export default {
       broadcast.call(this, componentName, eventName, params);
     }
   }
+  
 };
