@@ -181,6 +181,8 @@
       } else {
         this.tree = parent.tree;
       }
+      
+      /*一直向上找 母 tree store*/ 
 
       const tree = this.tree;
       if (!tree) {
